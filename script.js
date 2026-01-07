@@ -213,7 +213,7 @@ function updateProjectCount(category, count) {
     
     const countElement = document.querySelector('.section-intro p');
     if (countElement) {
-        countElement.textContent = `Showing ${count} ${categoryText}project${count !== 1 ? 's' : ''}. Each project includes a description, technologies used, and links to the code repository.`;
+        countElement.textContent = `Showing ${count} ${categoryText}data science project${count !== 1 ? 's' : ''}. Each project includes a description, technologies used, and links to the code repository.`;
     }
 }
 
