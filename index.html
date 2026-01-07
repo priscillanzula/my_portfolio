@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Data<span>Portfolio</span></a>
+
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Data Science Portfolio</h1>
+                    <p>Explore end-to-end data science projects that highlight technical expertise, analytical thinking,
+                        and real-world
+                        problem-solving. Each project guides you through data cleaning, modeling, and visualization,
+                        illustrating tangible
+                        business impact and actionable insights.</p>
+
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+
+                    <img src="images/hero.png" alt="Data Science Visualization">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About This Portfolio</h2>
+            <div class="about-content">
+                <div>
+                    <p>This portfolio showcases 5–8 data science projects built following industry best practices,
+                        demonstrating both technical
+                        expertise and real-world impact.</p>
+
+                    <p>Projects are organized into three categories:</p>
+
+                    <ul class="portfolio-categories">
+                        <li><strong>Core Projects</strong> - End-to-end data science workflows</li>
+                        <li><strong>Supporting Projects</strong> - Breadth of tools and techniques</li>
+                        <li><strong>Specialized Projects</strong> - Advanced or niche skills</li>
+                    </ul>
+
+                    <p>Each project clearly demonstrates: <strong>Problem → Approach → Results →
+                            Impact</strong>.<br>This
+                        structure highlights analytical thinking, technical skills, and the business value of each
+                        solution.</p>
+                </div>
+
+                <div>
+                    <h3>Technical Skills</h3>
+                    <div class="skills">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">Data Visualization</span>
+                        <span class="skill-tag">NLP</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Data Modelling</span>
+                        <span class="skill-tag">Statistical Analysis</span>
+                        <span class="skill-tag">Exploratory Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="section-intro">
+                <p>Below are selected data science projects organized by category. Each project includes a description,
+                    technologies used, and links to the code repository.</p>
+            </div>
+
+            <div class="project-categories">
+                <button class="category-btn active" data-category="all">All Projects</button>
+                <button class="category-btn" data-category="core">Core Projects</button>
+                <button class="category-btn" data-category="supporting">Supporting Projects</button>
+                <button class="category-btn" data-category="specialized">Specialized Projects</button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div>
+                    <p>I'm currently seeking data science opportunities and would love to discuss how my skills and
+                        projects align with your organization's needs.</p>
+
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h3>Email</h3>
+                                <p>contact@danielpriscilla61@gmail.com</p>
+                            </div>
+
+
+                        </div>
+                        <!-- Replace with your actual phone number -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+254792214211</p> <!-- Your actual number here -->
+                            </div>
+                        </div>
+
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div>
+                                <h3>GitHub</h3>
+                                <p>github.com/priscillanzula</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Open to remote & onsite opportunities worldwide</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <p>Feel free to reach out for project collaborations, job opportunities, or to discuss data science
+                        trends and techniques.</p>
+                    <a href="mailto:contact@danielpriscilla61@gmail.com" class="btn contact-btn">Send Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <a href="#" class="logo">Data<span>Portfolio</span></a>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <p class="copyright">© 2025 Nzula Priscilla Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
