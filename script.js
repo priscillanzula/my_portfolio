@@ -3,7 +3,8 @@ const projects = [
     {
     id: 1,
     title: "Customer Churn Prediction for SyriaTel",
-    category: "core",
+        category: "core",
+    image:"images/churn.jpeg",
     businessProblem: "SyriaTel telecommunications company faces significant customer attrition, resulting in revenue loss and market position erosion. The company needs to proactively identify at-risk customers and implement targeted retention strategies to reduce churn and improve customer loyalty.",
     approach: [
         "Analyzed 3,333 customer records with 20+ features including account length, service usage patterns, and customer service interactions",
@@ -25,7 +26,8 @@ const projects = [
     {
     id: 2,
     title: "House Price Prediction for Real Estate Investment",
-    category: "core",
+        category: "core",
+    image:"images/prorealty.png",
     businessProblem: "Real estate investors need accurate property valuation models to identify undervalued opportunities, minimize overpayment risks, and maximize return on investment during market expansion strategies.",
     approach: [
         "Analyzed 21,613 property records from King County with 21 features including square footage, construction grade, year built, and waterfront access",
@@ -47,7 +49,8 @@ const projects = [
     {
     id: 3,
     title: "Flower Species Image Classification",
-    category: "core",
+        category: "core",
+    image:"images/flowers.png",
     businessProblem: "Botanical research and conservation efforts require automated tools to identify and classify flower species from images, enabling biodiversity monitoring and ecological studies without manual expert identification.",
     approach: [
         "Implemented transfer learning using InceptionV3 architecture pre-trained on ImageNet with 22 million parameters",
@@ -69,7 +72,8 @@ const projects = [
     {
     id: 4,
     title: "Life Expectancy Prediction for Healthcare Policy",
-    category: "core",
+        category: "core",
+    image:"images/gdp_life.png",
     businessProblem: "Healthcare policymakers struggle to effectively allocate limited resources because they lack data-driven insights into which health interventions most significantly impact population longevity, leading to inefficient spending and missed opportunities to improve public health outcomes.",
     approach: [
         "Analyzed 2,938 country-year records with 21 health and socioeconomic indicators including mortality rates, immunization coverage, and education levels",
@@ -90,7 +94,8 @@ const projects = [
     {
     id: 5,
     title: "E-commerce Database System Design",
-    category: "supporting",
+        category: "supporting",
+    image:"images/ecommerce ERD.png",
     businessProblem: "Online retailers need robust, scalable database systems to manage complex operations including customer orders, inventory, payments, and shipping logistics while maintaining data integrity and performance.",
     approach: [
         "Designed normalized relational database schema with 15+ tables including Customers, Products, Orders, Payments, and Inventory",
@@ -112,7 +117,8 @@ const projects = [
     {
     id: 6,
     title: "IMDB Movie Review Sentiment Analysis",
-    category: "supporting",
+        category: "supporting",
+    image:"images/movies.png",
     businessProblem: "Content platforms need automated sentiment analysis tools to process large volumes of user reviews, enabling better content recommendations and audience understanding without manual review.",
     approach: [
         "Processed 50,000 IMDB movie reviews with comprehensive text preprocessing including HTML tag removal, lowercasing, and stopword filtering",
@@ -134,7 +140,8 @@ const projects = [
     {
     id: 7,
     title: "BisWatch: Retail & Business Finance Dashboard",
-    category: "supporting",
+        category: "supporting",
+    image:"images/Retailer_dashboard.png",
     businessProblem: "Small business owners and freelancers need a simple, centralized tool to track income, expenses, and visualize financial health without complex accounting software.",
     approach: [
         
@@ -155,7 +162,8 @@ const projects = [
     {
     id: 8,
     title: "Breast Cancer Malignancy Classification",
-    category: "specialized",
+        category: "specialized",
+    image:"images/feature_importance_breast.png",
     businessProblem: "Medical diagnosis requires accurate tools to distinguish between benign and malignant tumors from cellular characteristics, reducing unnecessary biopsies and enabling timely treatment decisions.",
     approach: [
         "Analyzed 683 breast cancer cell samples with 9 cytological features including clump thickness, bare nuclei, and mitotic activity",
@@ -177,7 +185,8 @@ const projects = [
     {
     id: 9,
     title: "Heart Disease Risk Prediction",
-    category: "specialized",
+        category: "specialized",
+    image:"images/heart.png",
     businessProblem: "Healthcare providers need reliable tools to assess heart disease risk based on patient clinical and demographic data, enabling early intervention and preventive care.",
     approach: [
         "Conducted comprehensive EDA on 303 patient records with 13 clinical features including age, cholesterol, blood pressure, and ECG results",
@@ -199,7 +208,8 @@ const projects = [
     {
     id: 10,
     title: "Library Management Database System",
-    category: "supporting",
+        category: "supporting",
+    image:"images/ERD_lib.png",
     businessProblem: "Libraries need robust database systems to efficiently manage complex operations including book tracking, member management, borrowing transactions, and event scheduling while maintaining data integrity and supporting real-time operational needs.",
     approach: [
         "Designed normalized relational database schema with 13 interconnected tables including Books, Members, Transactions, Authors, and Events using MySQL",
@@ -221,7 +231,8 @@ const projects = [
     {
     id: 15,
     title: "Amazon Reviews NLP Analysis with SpaCy",
-    category: "supporting",
+        category: "supporting",
+    image:"images/spacy.png",
     businessProblem: "Product reviews contain valuable information about customer opinions and mentioned products, but manually analyzing them is time-consuming. Automated tools can help extract key information like products mentioned and sentiment.",
     approach: [
         "Used spaCy for natural language processing to extract named entities like products and brands from Amazon review text",
@@ -243,7 +254,8 @@ const projects = [
     {
     id: 12,
     title: "Document Management System with Flask & MongoDB",
-    category: "supporting",
+        category: "supporting",
+    image:"images/documentation.png",
     businessProblem: "Small teams and individuals need a simple way to organize and manage documents digitally, but complex systems can be overwhelming. A lightweight web-based solution can help store, retrieve, and manage documents without the overhead of enterprise systems.",
     approach: [
         "Built a Flask web application with MongoDB backend to store and manage documents with CRUD operations",
@@ -268,6 +280,7 @@ const projects = [
         id: 13,
         title: "Exploratory Data Analysis",
         category: "core",
+        image:"images/eda.png",
         businessProblem: "Develop comprehensive data analysis skills through systematic exploration of complex datasets.",
         approach: [
             "Performed data cleaning and preprocessing on diverse datasets",
@@ -288,6 +301,7 @@ const projects = [
         id: 14,
         title: "Machine Learning Models",
         category: "core",
+        image:"images/ensemble.png",
         businessProblem: "Build and compare various machine learning algorithms to understand their strengths and applications.",
         approach: [
             "Implemented range of algorithms including tree-based models and ensemble methods",
