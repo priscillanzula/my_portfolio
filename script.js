@@ -381,21 +381,6 @@ function renderProjects(category = 'all') {
         
         projectsGrid.appendChild(projectCard);
     });
-    
-    // Update project count display
-    updateProjectCount(category, filteredProjects.length);
-}
-
-// Function to update project count
-function updateProjectCount(category, count) {
-    const categoryText = category === 'all' ? '' : 
-                        category === 'core' ? 'Core ' :
-                        category === 'supporting' ? 'Supporting ' : 'Specialized ';
-    
-    const countElement = document.querySelector('.section-intro p');
-    if (countElement) {
-        countElement.textContent = `Showing ${count} ${categoryText}data science project${count !== 1 ? 's' : ''}. Each project follows a clear structure: Business Problem → Technical Approach → Quantifiable Results.`;
-    }
 }
 
 // Function to close mobile menu
